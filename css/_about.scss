@@ -1,0 +1,118 @@
+.about{ 
+    width:100%;background-color:#FAF9F9;padding:7% 0;
+    .about-text{
+        text-align:center;
+        h2{
+            font-size:20px;font-weight:bolder;
+        }
+        .about-btns{
+            display: flex;
+            button{
+                background-color: transparent;border-color:black;width:48%;
+                i{
+                    margin:5% 5% 5% 0;
+                }
+                &:hover{
+                    background-color:black;color:white;
+                }
+            }
+            span{
+                font-family:Book Antiqua; margin-left:30px;cursor: pointer;
+                &:hover{
+                    background-color: rgba(0, 0, 0, 0.74);color:whitesmoke;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:768px){
+    .about{
+        .about-text{
+            text-align: left;padding-top:20px;
+            h2{
+                font-size:24px;
+            }
+            p{
+                padding: 13% 0px;
+                line-height: 22px;
+            }
+            i{
+                margin-right:15px;
+                margin-bottom: 20px;
+            }
+             span{
+                line-height: 20px;
+            }
+            .about-btns{
+                button{
+                    width:55%;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:980px){
+    .about{
+        .about-text{
+            text-align: left;padding-top:20px;
+            h2{
+                font-size:32px;
+            }
+            p{
+                font-size: 15px;
+                line-height: 27px;
+            }
+            i{
+                margin-right:15px;
+            }
+             span{
+                line-height: 20px;
+            }
+            .about-btns{
+                button{
+                    width:45%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:768px){
+    .about{ 
+        .about-text{
+            p{
+                line-height: 30px;
+            }
+            span{
+                line-height: 30px;
+            }
+            .about-btns{
+                justify-content: center; 
+            }
+        }
+    }
+}
+
+
+@media (max-width:425px){
+    .about{
+        .about-text{
+            span{
+                font-size:15px;
+            }
+            .about-btns{
+                button{
+                   
+                    font-size:11px;height: 49px;
+                }
+                span{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

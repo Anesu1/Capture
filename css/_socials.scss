@@ -1,0 +1,9 @@
+.socials{
+    text-align: center;width:auto;line-height:20px;background-color: #F3F3F3;
+}
+
+@media (min-width:767px){
+    .socials{
+        display:flex;justify-content: space-evenly;
+    }
+}

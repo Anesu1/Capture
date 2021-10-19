@@ -1,0 +1,23 @@
+.services{
+    background-color:$mainColor;
+    .service-item{
+        padding: 15% 5% 5% 5%;text-align:center;color:white;
+        p{
+            padding:10% 0;line-height:30px;
+        }
+    }
+}
+
+@media (min-width:768px){
+    p{
+        padding:5%;line-height: 15px;font-size: 15px;
+    }
+}
+
+@media (max-width:768px){
+    .services{
+        .service-item{
+            padding: 5%;
+        }
+    }
+}
